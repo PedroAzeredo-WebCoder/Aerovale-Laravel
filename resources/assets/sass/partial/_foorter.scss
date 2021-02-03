@@ -1,0 +1,58 @@
+.rodape {
+
+    background-image: url("/assets/img/footer.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-top: 8px solid #5a5a59;
+}
+
+$separator-size: 2px;
+$separator-border-style: solid;
+$separator-border-color: #6c757d;
+$separator-space-top: 3px;
+$separator-space-bottom: 10px;
+
+
+.separator {
+
+  margin-top: $separator-space-top;
+  margin-bottom: $separator-space-bottom;
+  border: 0;
+  
+}
+
+.separator--line {
+
+  border: 0;
+  border-bottom: $separator-size $separator-border-style $separator-border-color;
+
+  width: 0;
+  animation: separator-width 1.5s ease-out forwards;
+}
+@keyframes separator-width {
+
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 47%;
+  }
+}
+
+@mixin dot {
+
+  $dot-size: 7px;
+  content: "";
+  background-color: $separator-border-color;
+  display: block;
+  height: $dot-size;
+  width: $dot-size;
+  border-radius: 50%;
+}
+
+.to-top {
+
+  width: 13%;
+}
+
+    

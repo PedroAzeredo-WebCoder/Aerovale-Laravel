@@ -1,0 +1,31 @@
+.rodape {
+  background-image: url("/assets/img/footer.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-top: 8px solid #5a5a59;
+}
+
+.separator {
+  margin-top: 3px;
+  margin-bottom: 10px;
+  border: 0;
+}
+
+.separator--line {
+  border: 0;
+  border-bottom: 2px solid #6c757d;
+  width: 0;
+  animation: separator-width 1.5s ease-out forwards;
+}
+
+@keyframes separator-width {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 47%;
+  }
+}
+.to-top {
+  width: 13%;
+}

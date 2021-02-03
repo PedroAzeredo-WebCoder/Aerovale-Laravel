@@ -1,0 +1,20 @@
+.topo {
+  background-image: url("/assets/img/timthumb.png");
+  background-repeat: no-repeat;
+  border-top: 6px solid #868282;
+}
+
+#cardLeft {
+  background-image: url("/assets/img/cardLeft.png");
+  background-repeat: no-repeat;
+}
+
+#cardCenter {
+  background-image: url("/assets/img/caedCenter.png");
+  background-repeat: no-repeat;
+}
+
+#cardRight {
+  background-image: url("/assets/img/caedRight.png");
+  background-repeat: no-repeat;
+}
